@@ -11,7 +11,7 @@ start_page();
         <input type="text" name="id">
         <label for="pass">Password: </label>
         <input type="password" name="pass">
-        <input type="submit" >
+        <input type="submit" name="action" value="login">
     </form>
     <div class="card">
         <?php
@@ -27,7 +27,7 @@ start_page();
                 }
                 $dbRow = mysqli_fetch_assoc($dbResult);
                 if ($dbRow["PASS"] == $ps) {
-                    echo 'Bienvenue '.$dbRow["ID"].'.';
+                    echo 'Bienvenue '.$dbRow["MAIL"].'.';
                 } else {
                     echo "Mauvais mot de passe !!!";
                 }
