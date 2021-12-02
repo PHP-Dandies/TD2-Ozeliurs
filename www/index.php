@@ -10,10 +10,10 @@ start_page();
         </div>
         <div>
             <label for="sex">Sexe:</label>
-            <input type="radio" name="sex">Masculin</input>
-            <input type="radio" name="sex">Féminin</input>
-            <input type="radio" name="sex">Autre</input>
-            <input type="radio" name="sex">Hélicoptère de Combat</input>
+            <input type="radio" name="sex" value="male">Masculin</input>
+            <input type="radio" name="sex" value="fema">Féminin</input>
+            <input type="radio" name="sex" value="othe">Autre</input>
+            <input type="radio" name="sex" value="heli">Hélicoptère de Combat</input>
         </div>
         <div>
             <label for="email">E-mèl:</label>
