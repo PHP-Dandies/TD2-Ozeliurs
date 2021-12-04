@@ -9,8 +9,6 @@ CREATE TABLE `USER` (
   `DATE` DATE
 ) ENGINE=InnoDB;
 
-COMMIT;
-
 INSERT INTO `USER` (`ID`, `SEX`, `MAIL`, `PASS`, `PHONE`, `COUNTRY`, `CG`, `DATE`) VALUES
 (1, 'male', 'ozeliurs@gmail.com', 'password', '0000000000', 'fr', 'on', '2021-12-02'),
 (2, 'fema', 'ozeliurs+2@gmail.com', 'password2', '0000000001', 'en', 'on', '2021-12-02'),
